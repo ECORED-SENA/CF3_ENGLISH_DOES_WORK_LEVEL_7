@@ -198,3 +198,42 @@ span.f
   background-color: #ffdfe0
 .dialogo__chat__item__message__translate-btn
   display: none
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  @media (max-width: $bp-max-sm)
+    border-radius: 20%
+    padding: 1rem
+    width: 2px
+.slyder-a__btn--sigt
+  @media (max-width: $bp-max-sm)
+    right: 
+
+.slyder-a__bullets
+  @media (max-width: $bp-max-sm)
+    transform: scale(0.5)
+.dots-4
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-botones
+    opacity: 1
+    background-image: url(../assets/curso/temas/tema2/arrow-white.svg)
+.slyder-a__bullets__item--active
+  background-color: $color-acento-botones !important
+  border: 0px
+.slyder-a__bullets__item
+  background-color: #ffdfe0
+  border: 0px
+.slyder-100
+  .horizontal-scroll
+    align-items: normal !important
+
+.slyder-f__btn
+  i
+    font-size: 40px
+  .fa-chevron-right:before
+        transform: scaleX(-1)
+        color: $color-acento-botones
+        
+        content: "\f138"
+  .fa-chevron-left:before
+        color: $color-acento-botones
+        width: 37px
+        content: "\f137"
