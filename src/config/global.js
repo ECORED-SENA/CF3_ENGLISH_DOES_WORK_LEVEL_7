@@ -54,76 +54,37 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo:
-          '<em>I have won the lotto twice!</em> (¡Yo he ganado la lotería dos veces!)',
+        titulo: '<em> Past Perfect </em> (Pasado perfecto)',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: '<em> Structure </em> (Estructura)',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo:
+              '<em> When not to use Past Perfect</em> (Cuándo no usar el pasado perfecto)',
+            hash: 't_1_2',
+          },
+        ],
       },
 
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: '<em> Present Perfect</em> (Presente perfecto)',
+        titulo: '<em> Adverbs of degree</em> (Adverbios de grado)',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo:
-              '<em> Present Perfect vs Simple Past</em> (Presente perfecto vs. pasado simple)',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo:
-              '<em> Complex sentences with Present Perfect</em> (Oraciones complejas con presente perfecto)',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: '<em> Time expressions</em> (Expresiones de tiempo)',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo:
-          '<em>Textual structure of anecdotes</em> (Estructura textual de anécdotas) ',
-        desarrolloContenidos: true,
-      },
-      {
-        nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
-        numero: '4',
-        titulo:
-          '<em> Comparison with adverbs (Comparaciones con adverbios)</em>        ',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.1',
-            titulo: '<em> Adverbs of manner</em> (Adverbios de modo) ',
-            hash: 't_4_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '4.2',
-            titulo:
-              '<em> Regular and irregular adverbs</em> (Adverbios regulares e irregulares)',
-            hash: 't_4_2',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
-        numero: '5',
-        titulo: '<em>Exclamation phrases</em> (Frases de exclamación)   ',
+        titulo: '<em> Narrative connectors</em> (Conectores narrativos) ',
         desarrolloContenidos: true,
       },
     ],
@@ -134,12 +95,12 @@ export default {
         nombreRuta: 'sintesis',
         desarrolloContenidos: true,
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -169,117 +130,111 @@ export default {
   },
   complementario: [
     {
-      tema:
-        '<em> Present Perfect vs Simple Past</em> (Presente Perfecto vs Pasado Simple)',
+      tema: 'Past Perfect (Pasado perfecto)',
       referencia:
-        'BBC Learning English. (2018). Present Perfect and Past Simple: The Grammar Gameshow Episode 29 [Video]. YouTube. ',
+        'BBC Learning English. (2018). The Past Perfect Tense: The Grammar Gameshow Episode 13 [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=XgLdOI6UsJY',
+      link: 'https://www.youtube.com/watch?v=05HXVE05vjg',
     },
     {
-      tema:
-        '<em> Present Perfect vs Simple Past</em> (Presente Perfecto vs Pasado Simple)',
+      tema: 'Structure (Estructura)',
       referencia:
-        'BBC Learning English. (2020). Present perfect and past simple - 6 Minute Grammar [Video]. YouTube. ',
+        'Beckwith, S. (s. f.). Past Perfect Exercise 1. Perfect English Grammar. ',
+      tipo: 'Web',
+      link:
+        'https://www.perfect-english-grammar.com/past-perfect-exercise-1.html',
+    },
+    {
+      tema: 'Adverbs of Degree (Adverbios de grado)',
+      referencia: 'English Grammar.org. (2012). Adverbs of degree exercise. ',
+      tipo: 'Web',
+      link: 'https://www.englishgrammar.org/adverbs-degree-exercise/',
+    },
+    {
+      tema: 'Adverbs of Degree (Adverbios de grado)',
+      referencia:
+        'Shaw English Online. (2020). Adverbs of Degree | Learn Basic English Grammar Course [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=jwmKjgwlMk8',
+      link:
+        'https://www.youtube.com/watch?v=8exJ4UjxWng&ab_channel=ShawEnglishOnline',
     },
     {
-      tema: '<em> Time Expressions</em> (Expresiones de tiempo)',
+      tema: 'Narrative connectors (Conectores narrativos)',
       referencia:
-        'Woodward English. (2022). Present perfect tense with ADVERBS in English - Just, Ever, Never, Still, Yet, Already [Video]. YouTube. ',
-      tipo: 'Video      ',
-      link: 'https://www.youtube.com/watch?v=Eoxx2ptKO6c&t=321s',
-    },
-    {
-      tema: '<em> Adverbs of manner</em> (Adverbios de modo)',
-      referencia:
-        'British Council Malaysia. (2019). Helen and Ted - Adverbs of manner [Video]. YouTube. ',
+        'EasyTeaching. (2019). Writing a Narrative: Part 2 Language Elements | EasyTeaching [Video]. YouTube. ',
       tipo: 'Video',
-      link: 'https://www.youtube.com/watch?v=JLKF6nieRBM',
-    },
-    {
-      tema: '<em> Exclamation Phrases</em> (Frases de exclamación)',
-      referencia: 'BBC. (s. f.). Using exclamation marks. Bitesize. ',
-      tipo: 'Artículo',
-      link: 'https://www.bbc.co.uk/bitesize/topics/z8x6cj6/articles/zmtpscw',
-    },
-    {
-      tema: ' <em> Exclamation Phrases</em> (Frases de exclamación)',
-      referencia:
-        'Sun & Moon. (2016). BBC Bitesize - English - Exclamation [Video]. Vimeo. ',
-      tipo: 'Video',
-      link: 'https://vimeo.com/161802017',
+      link: 'https://www.youtube.com/watch?v=3fDbenhTwjw',
     },
   ],
   glosario: [
     {
-      termino: '<em>Adverbs of manner</em> / Adverbios de modo',
+      termino: '<em> Base form</em> / Forma base',
       significado:
-        'adverbios que describen cómo alguien hace algo o cómo sucede algo.',
+        'forma más básica de un verbo, sin ningún tipo de terminación específica.',
     },
     {
-      termino: '<em>Anecdote</em> / Anécdota',
+      termino: '<em> Past simple </em> / Pasado simple',
       significado:
-        'una historia corta, a menudo entretenida, divertida, extraña o curiosa, sobre un evento, que generalmente involucra a la persona que lo cuenta.',
+        'tiempo verbal que hace referencia a acciones que se llevaron a cabo en un momento o tiempo previo al ahora.',
     },
     {
-      termino: '<em>Exclamation phrases</em> / Frases de exclamación',
+      termino: '<em> Past continuous</em>  / Pasado continuo',
       significado:
-        'frase o cláusula asociada a las exclamaciones usadas para expresar sorpresa, conmoción o una emoción fuerte sobre algo.',
+        'tiempo verbal que hace referencia a acciones que se estaban llevando a cabo en un momento del pasado.',
     },
     {
-      termino: '<em>Present perfect</em> / Presente perfecto',
+      termino: '<em> Time expressionsM</em> / Expresiones de tiempo',
       significado:
-        'tiempo verbal que conecta al pasado con el presente, hace referencia a acciones que empezaron en un momento o tiempo previo al ahora y que todavía se están llevando a cabo, o que si ya terminaron en el pasado aún tienen relevancia en el presente.',
-    },
-    {
-      termino: '<em>Simple past</em> / Pasado simple',
-      significado:
-        'tiempo verbal que hace referencia a acciones que se llevaron a cabo (empezaron y terminaron) en un momento o tiempo previo al ahora.',
+        'son expresiones que dan información sobre el tiempo en que sucede algo y se emplean para hablar del momento en que se realiza una acción.',
     },
   ],
   referencias: [
     {
       referencia:
-        'BBC. (s. f.). Unit 11: The bucket list: The present perfect with ‘ever’ and ‘never’. Learning English. ',
+        'Austen, J. (s. f.). LETTER 4th Laura to MARIANNE. Project Gutenberg. ',
       link:
-        'https://www.bbc.co.uk/learningenglish/english/course/lower-intermediate/unit-11/session-2',
+        'https://www.gutenberg.org/files/1212/1212-h/1212-h.htm#link2H_4_0005',
     },
     {
       referencia:
-        'British Council. (s. f.). Adverbials of manner. British Council LearnEnglish. ',
-      link:
-        'https://learnenglish.britishcouncil.org/es/grammar/english-grammar-reference/adverbials-of-manner',
+        'Beckwith, S (s. f.). The Past Perfect Tense. Perfect English Grammar. ',
+      link: 'https://www.perfect-english-grammar.com/past-perfect.html',
     },
     {
       referencia:
-        'British Council. (s. f.). Comparative and superlative adverbs. British Council LearnEnglish. ',
+        'Cambridge University Press. (s.f.). Degree adverbs. Cambridge Dictionary. ',
       link:
-        'https://learnenglish.britishcouncil.org/grammar/english-grammar-reference/comparative-and-superlative-adverbs',
+        'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/degree-adverbs',
     },
     {
       referencia:
-        'Cambridge University Press. (s. f.). Exclamations. Cambridge Dictionary. ',
+        'Equipo académico. (2021). Conectores en inglés: herramientas para la fluidez. British Council Colombia.',
       link:
-        'https://dictionary.cambridge.org/es-LA/grammar/british-grammar/exclamations',
+        'https://www.britishcouncil.co/blog/aprende-ingles/conectores-ingles',
     },
     {
       referencia:
-        'Coordinación de Universidad Abierta y Educación a Distancia. (s. f.). Comparative forms with adjectives and adverbs. Ambiente Virtual de Idiomas . ',
-      link:
-        'https://avi.cuaed.unam.mx/repositorio/moodle/pluginfile.php/3220/mod_resource/content/20/contenido/index.html',
+        'Equipo académico. (2021). Past perfect: claves para usarlo como nativo. British Council México. ',
+      link: 'https://www.britishcouncil.org.mx/blog/past-perfect',
     },
     {
       referencia:
-        'Ellis, M. (2022). What Is an Anecdote, and How Do You Write One?. Grammarly Blog. ',
-      link: 'https://www.grammarly.com/blog/anecdote/',
+        'English with Cambridge. (2021). Past simple y past perfect. ',
+      link: 'https://www.inglesconcambridge.com/past-simple-y-past-perfect/ ',
     },
     {
       referencia:
-        'Woodward English. (s. f.). Adverbs with the Present Perfect Tense. ',
+        'Murphy, R. (2019). English Grammar in Use. Cambridge University Press. ',
       link:
-        'https://www.woodwardenglish.com/lesson/adverbs-with-present-perfect-tense/',
+        'https://corsidilaurea.uniroma1.it/sites/default/files/english_grammar_in_use_intermediate_2019_5th-ed.pdf',
+    },
+    {
+      referencia: 'UsingEnglish.com. (2022). English Irregular Verbs List. ',
+      link: 'https://www.usingenglish.com/reference/irregular-verbs',
+    },
+    {
+      referencia: '',
+      link: '',
     },
   ],
   creditos: {
@@ -298,15 +253,16 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Michelle Manuela Pérez Hernández',
-        cargo: ' Experta Temática',
+        nombre: 'Jesús Edgardo Contreras Ramírez',
+        cargo: ' Experto Temático',
         centro:
           'Centro para la Industria de la Comunicación Gráfica - Regional Distrito Capital ',
       },
       {
-        nombre: 'Gloria Lida Alzate Suárez',
-        cargo: ' Diseñadora Instruccional',
-        centro: 'Centro de Gestión Industrial - Regional Distrito Capital ',
+        nombre: 'Óscar Absalón Guevara',
+        cargo: ' Diseñador Instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios – CIES - Regional Santander  ',
       },
       {
         nombre: 'Ana Catalina Córdoba Sus',
@@ -327,25 +283,36 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Blanca Flor Tinoco Torres',
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
+        nombre: 'Zuleidy María Ruíz Torres',
+        cargo: 'Revisión de guion audiovisual',
+        centro: 'Centro de Comercio y Servicios - Regional Tolima',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Cáceres',
+        cargo: 'Validación Ilustración',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Gilberto Junior Rodríguez Rodríguez',
+        cargo: 'Validación audiovisual        ',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura - Regional Santander',
+      },
+      {
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: '',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

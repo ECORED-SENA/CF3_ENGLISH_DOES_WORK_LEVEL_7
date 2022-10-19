@@ -14,7 +14,7 @@
             .contenedor-traductor__eng
               p.fst-italic Using narrative connectors is an essential part of telling anecdotes. They are very useful when giving the reader or listener a path to follow throughout the story and help you build a solid structure during your narration. When talking about narrative connectors, there will be a lot of options to choose from, but let’s focus on the ones that will help you lead to an interesting and structured anecdote:
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-              p 
+              p El uso de conectores narrativos es una parte esencial de la narración de anécdotas. Son muy útiles a la hora de dar al lector u oyente un camino a seguir a lo largo de la historia y le ayudan a construir una estructura sólida durante la narración. Al hablar de conectores narrativos, habrá muchas opciones para elegir, pero vamos a centrarnos en los que le ayudarán a dar lugar a una anécdota interesante y estructurada:
             a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-right")
@@ -24,7 +24,7 @@
                   .contenedor-traductor__eng
                     p.fst-italic “Once upon a time” is an expression used to initiate a tale or a story. Most of these stories are fairy tales for kids and it is not surprising it is almost a standard when talking about how to start a narration. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:.
                     .contenedor-traductor__esp(:class="{ mostrar: tabs1}")
-                      p 
+                      p #[em “Once upon a time"] es una expresión utilizada para iniciar un cuento o una historia. La mayoría de estas historias son cuentos para niños y no es de extrañar que sea casi un estándar cuando se habla de cómo empezar una narración. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta.
                     a.boton-traduccion(@click='tabs1 = !tabs1' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -50,7 +50,7 @@
               .contenedor-traductor__eng
                   p.fst-italic “Meanwhile” is an element of the narration which allows you to talk about two things that were happening at the same time. However, it is not its only use, it can be also used to talk about a period of time between an action and a future one. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:  
                   .contenedor-traductor__esp(:class="{ mostrar: tabs2}")
-                    p 
+                    p “Meanwhile” es un elemento de la narración que permite hablar de dos cosas que ocurren al mismo tiempo. Sin embargo, no es su único uso, también puede utilizarse para hablar de un periodo de tiempo entre una acción y otra futura. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta: 
                   a.boton-traduccion(@click='tabs2 = !tabs2' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -74,7 +74,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “Suddenly” is a narrative connector that denotes surprise or something unexpected. It is commonly used with a verb and as a starting point of a sentence. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:
               .contenedor-traductor__esp(:class="{ mostrar: tabs3}")
-                p 
+                p “Suddenly” es un conector narrativo que denota sorpresa o algo inesperado. Se utiliza habitualmente con un verbo y como punto de partida de una frase.  Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:  
               a.boton-traduccion(@click='tabs3 = !tabs3' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -101,7 +101,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “Afterwards” is a narrative connector that refers to a moment in the future. It can be used with any grammar tense because there is not only one context. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
               .contenedor-traductor__esp(:class="{ mostrar: tabs4}")
-                p 
+                p “Afterwards” es un conector narrativo que se refiere a un momento en el futuro. Se puede utilizar con cualquier tiempo gramatical porque no hay un solo contexto. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta: 
               a.boton-traduccion(@click='tabs4 = !tabs4' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -124,7 +124,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “Finally” is a finishing connector. It is used to introduce the closing part of the narration that you are telling or writing. This expression allows the writers or speakers to tell their audience that this narration is going to finish and prepare them for the end of the narration. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:    
               .contenedor-traductor__esp(:class="{ mostrar: tabs5}")
-                p 
+                p “Finally” es un conector de finalización. Se utiliza para introducir la parte final de la narración que se está contando o escribiendo. Esta expresión permite a los escritores u oradores indicar a su público que la narración va a terminar y prepararlos para el final de la misma. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
               a.boton-traduccion(@click='tabs5 = !tabs5' style='background-color: #fc5f65') Ver traducción 
                   
             .row.justify-content-center.mb-5
@@ -147,7 +147,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “At the end” is a finishing expression. It is used to introduce the closing part of the narration that you are telling or writing. This expression allows the writers or speakers to tell their audience that this narration is going to finish and prepare them for the end of the narration. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
               .contenedor-traductor__esp(:class="{ mostrar: tabs6}")
-                p 
+                p “At the end” es una expresión de finalización. Se utiliza para introducir la parte final de la narración que se está contando o escribiendo. Esta expresión permite a los escritores u oradores indicar a su público que la narración va a terminar y prepararlos para el final de la misma. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
               a.boton-traduccion(@click='tabs6 = !tabs6' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -165,7 +165,6 @@
                     br
                     |2. Put a comma after the expression “at the end”.  
                     span.fst-normal / Se pone una coma después de la expresión #[em “at the end”.]
-          .tarjeta.p-4(titulo="In conclusion" style='background-color: #c4d1ff')  
       .col-lg-3.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/14.jpg', alt='')
     .margin-n.p-5.mb-5(style="background-color: #f0f4ff ")
       p.mb-5
@@ -187,7 +186,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/15.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/1.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic ONCE UPON A TIME 
                 p
@@ -199,7 +198,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/16.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/2.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic ONCE UPON A TIME 
                 p
@@ -211,7 +210,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/17.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/3.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic MEANWHILE
                 p
@@ -223,7 +222,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/18.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/4.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic MEANWHILE 
                 p
@@ -235,7 +234,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/19.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/5.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic SUDDENLY
                 p
@@ -247,7 +246,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/20.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/6.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic SUDDENLY
                 p
@@ -259,7 +258,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/21.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/7.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic AFTER
                 p
@@ -271,7 +270,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/22.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/8.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic AFTER
                 p
@@ -283,7 +282,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/23.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/9.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic AFTERWARDS
                 p
@@ -295,7 +294,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/24.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/10.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic AFTERWARDS
                 p
@@ -307,7 +306,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/25.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/11.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic WHEN
                 p
@@ -319,7 +318,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/26.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/12.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic WHEN
                 p
@@ -331,7 +330,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/27.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/13.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic FINALLY
                 p
@@ -343,7 +342,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/28.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/14.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic FINALLY
                 p
@@ -355,7 +354,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/29.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/15.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic AT THE END
                 p
@@ -367,7 +366,7 @@
                 .col-4
                   img(src='@/assets/curso/temas/tema3/30.svg' alt='AvatarTop')
               .tarjeta.bg-white.p-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema3/16.mp3')").mb-3.m-auto.d-flex
                 p.mb-0
                   span.r--1.fw-bold.fst-italic AT THE END
                 p
@@ -381,7 +380,7 @@
           .contenedor-traductor__eng
             p.fst-italic Now that you have learned the expression and have tips to identify when to use these narrative connectors in a text, let’s practice by filling the blanks in your notebook, then check the answers. Listen, read, and complete:     
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            p 
+            p Ahora que ha aprendido la expresión y tiene consejos para identificar cuándo utilizar estos conectores narrativos en un texto, vamos a practicar rellenando los espacios en su cuaderno y revisando las respuestas. Escuche, lea y complete:
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
       .col-lg-6.col-8(data-aos="fade-left"): img(src='@/assets/curso/temas/tema3/31.jpg' alt='AvatarTop')
     .margin-n.p-5.mb-4.position-relative(style="background-color: #fff0f1")
@@ -406,11 +405,21 @@
           span.r--1 #[em Click and check your answers]
         TarjetaAudio.color-acento-botones.bg-white.TarjetaAudio(
           texto=""
-          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+          :audio="require('@/assets/curso/audios/tema3/17.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
     ModalA(:abrir-modal.sync="modal1")
       h2.text-center #[u O n c e ]
+    ModalA(:abrir-modal.sync="modal2")
+      h2.text-center #[u m e a n w h i l e ]
+    ModalA(:abrir-modal.sync="modal3")
+      h2.text-center #[u s u d d e n l y ]
+    ModalA(:abrir-modal.sync="modal4")
+      h2.text-center #[u a f t e r ]
+    ModalA(:abrir-modal.sync="modal5")
+      h2.text-center #[u w h e n ]
+    ModalA(:abrir-modal.sync="modal6")
+      h2.text-center #[u f i n a l l y ]
 
 
 
@@ -494,36 +503,11 @@ export default {
     tabs13: true,
     tabs14: true,
     modal1: false,
-    dialogo: {
-      personajes: [
-        {
-          nombre: 'Lucas',
-          img: require('@/assets/curso/temas/tema3/lucas.svg'),
-        },
-        {
-          nombre: 'Victoria',
-          img: require('@/assets/curso/temas/tema3/victoria.svg'),
-        },
-      ],
-      dialogo: [
-        {
-          personaje: 'Lucas',
-          textoIng:
-            'The moment the ground stopped shaking I knew I wanted to *** back home. I shouldn’t have moved to this city with such seismic activity.',
-          textoEsp: '',
-          audio: require('@/assets/curso/audios/tema3/lucas.mp3'),
-          palabra: 'go',
-        },
-        {
-          personaje: 'Victoria',
-          textoIng: 'What a ***! You should come back.',
-          textoEsp: '',
-          audio: require('@/assets/curso/audios/tema3/victoria.mp3'),
-          palabra: 'nightmare',
-        },
-      ],
-    },
-    // variables de vue
+    modal2: false,
+    modal3: false,
+    modal4: false,
+    modal5: false,
+    modal6: false,
   }),
   mounted() {
     this.$nextTick(() => {
@@ -577,3 +561,4 @@ span.button
     .TarjetaAudio
       width: 70%
 </style>
+t

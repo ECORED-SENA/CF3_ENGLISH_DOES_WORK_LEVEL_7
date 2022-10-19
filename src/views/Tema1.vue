@@ -42,7 +42,7 @@
         img(src='@/assets/curso/temas/tema1/4.jpg', alt='').mb-3
         TarjetaAudio.color-acento-botones.mb-3(
           texto="My family had never been to Houston before I moved there. "
-          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+          :audio="require('@/assets/curso/audios/tema1/2.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
         p.ms-3 Mi familia nunca había estado en Houston antes de mudarme aquí.
@@ -52,14 +52,17 @@
       .col-lg-5.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/5.jpg', alt='' style='border-radius: 20px')
       .col-lg-7(data-aos="fade-left")
         .contenedor-traductor(style='background-color: #fcf2ca')
-            //TODO traducir
             .contenedor-traductor__eng
               p.fst-italic When working with the past perfect, it is important to know how sentences are built because it has a very specific way of organizing the elements. However, it is quite similar to the present perfect tense, so it is necessary to remember some important elements, such as the verb used in the past participle and the use of the auxiliary verb, but this time you have to use it in the past. It means, instead of using “have” or “has”, you have to use “had”.
                 br
                 br
                 |As all of the structures use verbs in past participle, it is important to review how regular and irregular verbs are put into this tense: 
             .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp2}")
-              p 
+              p Cuando se trabaja con el pretérito perfecto, es importante conocer cómo se construyen las oraciones, porque tienen una forma muy específica de organizar los elementos. Sin embargo, es bastante similar al presente perfecto, por lo que es necesario recordar algunos elementos importantes, como el verbo utilizado en el participio pasado y el uso del verbo auxiliar, pero esta vez tiene que utilizarlo en pasado. Es decir, en lugar de usar #[em "have]" o #[em "has"], tiene que usar #[em "had"].
+                br
+                br
+                |Como todas las estructuras usan verbos en participio pasado, es importante repasar cómo se ponen los verbos regulares o irregulares en este tiempo:
+
             a.boton-traduccion(@click='ocultarEsp2 = !ocultarEsp2' style='background-color: #fc5f65') Ver traducción
     p.text-center.fst-italic.fw-bold 
       span.r--1 Regular verbs / Verbos regulares
@@ -70,7 +73,7 @@
           .row.mb-5
             .col-lg-8
               .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/3.mp3')").mb-3.m-auto.d-flex
                 h5.fst-italic.text-center
                   span.r--4 1. General rule 
                 p.text-center Add “ED” to the verb.
@@ -86,7 +89,7 @@
           .row.mb-5
             .col-lg-8
               .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/4.mp3')").mb-3.m-auto.d-flex
                 h5.fst-italic.text-center
                   span.r--4 2. Verbs ended in “E”
                 p.text-center Add “D” to the verb.
@@ -103,7 +106,7 @@
           .row.mb-5
             .col-lg-8
               .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/5.mp3')").mb-3.m-auto.d-flex
                 h5.fst-italic.text-center
                   span.r--4 3. Verbs ended in “Y” after a consonant
                 p.text-center Change “Y” for “IED” in the verb.
@@ -119,7 +122,7 @@
           .row.mb-5
             .col-lg-8
               .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/6.mp3')").mb-3.m-auto.d-flex
                 h5.fst-italic.text-center
                   span.r--4 4. Consonant doubling
                 p.text-center Double the last consonant when:
@@ -145,7 +148,7 @@
               .col-lg-10
                 p.mb-0.fst-italic #[b Description:] Irregular verbs don’t follow any rule; they all appear in a list: the irregular verb list:
               .col-lg-1
-                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/7.mp3')").mb-3.m-auto.d-flex
           //TODO agregar documento
           a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank").bg-white
             .row.justify-content-around.align-items-center
@@ -217,7 +220,7 @@
         .tarjeta.color-primario--borde.border-2.p-5
           TarjetaAudio.color-acento-botones.mb-3.bg-white(
             texto=""
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema1/8.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           img(src='@/assets/curso/temas/tema1/11.svg', alt='').mb-4
@@ -243,11 +246,10 @@
                 span.r--g Luisa me había llamado varias veces, pero yo estaba dormido.
       .col-lg-3(data-aos="fade-left"): img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/13.svg', alt='')
     .contenedor-traductor(style='background-color: #fcf2ca').mb-5
-          //TODO traducir
           .contenedor-traductor__eng
             p.fst-italic When using the past perfect, it is also important to know how to work with negative sentences. The negative sentences are quite similar to the affirmative ones, the only difference is that you have to put the auxiliary verb in the negative form. However, the other elements keep exactly the same; the verb is also in past participle form and the order of the structure is the same. Let’s see how the structure works:  
           .contenedor-traductor__esp(:class="{ mostrar: dial1}")
-            p 
+            p Al utilizar el pasado perfecto, también es importante saber cómo trabajar con oraciones negativas. Las oraciones negativas son bastante similares a las afirmativas, la única diferencia es que hay que poner el verbo auxiliar en la forma negativa. Sin embargo, los demás elementos se mantienen exactamente igual, el verbo también está en forma de participio pasado y el orden de la estructura es el mismo. Veamos cómo funciona la estructura: 
           a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
     .row.justify-content-center.mb-5
       .col-lg-3(data-aos="fade-right"): img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/14.svg', alt='')
@@ -255,7 +257,7 @@
         .tarjeta.color-acento-botones--borde.border-2.p-5(style='background-color: #fff0f1')
           TarjetaAudio.color-acento-botones.mb-3.bg-white(
             texto=""
-            :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+            :audio="require('@/assets/curso/audios/tema1/9.mp3')"
             @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
           img(src='@/assets/curso/temas/tema1/15.svg', alt='').mb-4
@@ -282,11 +284,10 @@
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
-          //TODO traducir
           .contenedor-traductor__eng
             p.fst-italic Now that we have studied the structures and know how to build sentences in past perfect, it is important to see them in a context, so you can understand the way they are used in real life situations; so, let’s see a fragment of a book “The Complete Works of Jane Austen” (2017), in which this tense is applied. Read and listen
           .contenedor-traductor__esp(:class="{ mostrar: dial2}")
-            p 
+            p Ahora que hemos estudiado las estructuras y sabemos cómo construir oraciones en pasado perfecto, es importante verlas en un contexto para que pueda entender la forma en que se utilizan en situaciones de la vida real; por lo tanto, veamos un fragmento del libro “The Complete Works of Jane Austen” (2017), en el cual este tiempo es aplicado. Lea y escuche:
           a.boton-traduccion(@click='dial2 = !dial2' style='background-color: #fc5f65') Ver traducción
       .col-lg-7(data-aos="fade-left")
         .tarjeta(style='background-color: #c4d1ff').p-5.position-relative.me-5
@@ -296,7 +297,7 @@
           .tarjeta__audio 
             TarjetaAudio.color-acento-botones.mb-3.bg-white(
               texto=""
-              :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+              :audio="require('@/assets/curso/audios/tema1/10.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
               )
     .row.justify-content-center.mb-5
@@ -322,9 +323,9 @@
                       .col-lg-10
                         p.fst-italic.mb-0 #[b Jordan:] Hey, Cristina, had you left the city when I called you?
                       .col-lg-2
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')").mb-0
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/11.mp3')").mb-0
                   .contenedor-traductor__esp(:class="{ mostrar: dial3}")
-                    p 
+                    p Oye, Cristina, ¿habías salido de la ciudad cuando te llamé?
                   a.boton-traduccion(@click='dial3 = !dial3' style='background-color: #fc5f65') Ver traducción
                 //TODO agregar traduccion 
                 .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
@@ -333,9 +334,9 @@
                       .col-lg-10
                         p.fst-italic.mb-0 #[b Cristina:] Yes, I had texted you three times before I got on the bus.
                       .col-lg-2
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')").mb-0
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/12.mp3')").mb-0
                   .contenedor-traductor__esp(:class="{ mostrar: dial4}")
-                    p 
+                    p Sí, te había mandado tres mensajes antes de subir al autobús.
                   a.boton-traduccion(@click='dial4 = !dial4' style='background-color: #fc5f65') Ver traducción
             .row.justify-content-center
               .col-lg-7
@@ -346,9 +347,9 @@
                       .col-lg-10
                         p.fst-italic.mb-0 #[b Jordan:] Sorry, I didn’t see the message, you had never ignored one of my calls.
                       .col-lg-2
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')").mb-0
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/13.mp3')").mb-0
                   .contenedor-traductor__esp(:class="{ mostrar: dial5}")
-                    p 
+                    p Lo siento, no vi el mensaje, nunca habías ignorado una de mis llamadas.
                   a.boton-traduccion(@click='dial5 = !dial5' style='background-color: #fc5f65') Ver traducción
                 //TODO agregar traduccion
                 .contenedor-traductor.edit.hr(style='background-color: #fff0b5').p-3.mb-5
@@ -357,9 +358,9 @@
                       .col-lg-10
                         p.fst-italic.mb-0 #[b Cristina:] I know, but there was much noise in that bus.
                       .col-lg-2
-                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema2/1.mp3')").mb-0
+                        Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/14.mp3')").mb-0
                   .contenedor-traductor__esp(:class="{ mostrar: dial6}")
-                    p 
+                    p Lo sé, pero había mucho ruido en el autobús.
                   a.boton-traduccion(@click='dial6 = !dial6' style='background-color: #fc5f65') Ver traducción
               .col-lg-5.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/20.svg', alt='')
 
@@ -384,7 +385,7 @@
           .contenedor-traductor__eng
             p.fst-italic Past perfect is not always necessary to talk about a sequence of events in the past. You have to think about the kind of message that you are trying to communicate. In case you want to talk about a series of events in chronological order that happened in the past, you mostly use the past simple. So, the past perfect is only used when you want to refer to something that happened earlier in the past. Let’s see some elements to identify these moments in which these tenses are used:
           .contenedor-traductor__esp(:class="{ mostrar: dial8}")
-            p 
+            p El pasado perfecto no siempre es necesario para hablar de la secuencia de acontecimientos en el pasado. Hay que pensar en el tipo de mensaje que se quiere comunicar. Si quiere hablar de una serie de acontecimientos en orden cronológico que ocurrieron en el pasado, se suele utilizar el pasado simple. Por lo tanto, el pasado perfecto solo se utiliza cuando se quiere hacer referencia a algo que ocurrió antes en el pasado. Veamos algunos elementos para identificar los momentos en los que se utilizan estos tiempos: 
           a.boton-traduccion(@click='dial8 = !dial8' style='background-color: #fc5f65') Ver traducción
       .col-lg-5.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/22.jpg', alt='')
     h4.text-center Simple past
@@ -395,7 +396,7 @@
             .row.mb-5
               .col-lg-8
                 .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                  Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                  Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/15.mp3')").mb-3.m-auto.d-flex
                   h5.fst-italic.text-center
                     span.r--4 Past events or states 
                       br
@@ -410,7 +411,7 @@
             .row.mb-5
               .col-lg-8
                 .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                  Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                  Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/16.mp3')").mb-3.m-auto.d-flex
                   h5.fst-italic.text-center
                     span.r--4 Events in chronological orders
                       br
@@ -425,7 +426,7 @@
               .row.mb-5
                 .col-lg-8
                   .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                    Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                    Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/17.mp3')").mb-3.m-auto.d-flex
                     h5.fst-italic.text-center
                       span.r--4 Events happened earlier in the past 
                         br
@@ -438,7 +439,7 @@
               .row.mb-5
                 .col-lg-8
                   .tarjeta.bg-white.djust.p-2(style='border: 2px solid #ffcacc').mx-3
-                    Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/1.mp3')").mb-3.m-auto.d-flex
+                    Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/18.mp3')").mb-3.m-auto.d-flex
                     h5.fst-italic.text-center
                       span.r--4 Duration of an earlier event in the past
                         br
@@ -453,14 +454,14 @@
           .contenedor-traductor__eng
             p.fst-italic Seen these charts, it may appear that these two tenses do not work well together; however, this cannot be less true. Because simple past and past perfect can complement each other. Let’s see how this work by looking at the following examples: 
           .contenedor-traductor__esp(:class="{ mostrar: dial9}")
-            p 
+            p Al ver estos diagramas, puede parecer que estos dos tiempos no funcionan bien juntos, sin embargo, esto no puede ser menos cierto, porque el pasado simple y el pretérito perfecto pueden complementarse. Veamos cómo funcionan observando los siguientes ejemplos: 
           a.boton-traduccion(@click='dial9 = !dial9' style='background-color: #fc5f65') Ver traducción
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right").mb-lg-0.mb-3
         img(src='@/assets/curso/temas/tema1/28.jpg', alt='').mb-3
         TarjetaAudio.color-acento-botones.mb-3(
           texto="My father had already made lunch when we returned from school today."
-          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+          :audio="require('@/assets/curso/audios/tema1/19.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
         p.ms-3 Mi papá ya había hecho el almuerzo cuando llegamos del colegio hoy. 
@@ -468,7 +469,7 @@
         img(src='@/assets/curso/temas/tema1/29.jpg', alt='').mb-3
         TarjetaAudio.color-acento-botones.mb-3(
           texto="I didn’t have my first car until I had gotten my driver’s license."
-          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+          :audio="require('@/assets/curso/audios/tema1/20.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
         p.ms-3 No tuve mi primer carro hasta que había obtenido mi licencia de conducción.
@@ -476,7 +477,7 @@
         img(src='@/assets/curso/temas/tema1/30.jpg', alt='').mb-3
         TarjetaAudio.color-acento-botones.mb-3(
           texto="Nani had felt sad in her work until she finally quit. "
-          :audio="require('@/assets/curso/audios/tema1/1.mp3')"
+          :audio="require('@/assets/curso/audios/tema1/21.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
           )
         p.ms-3 Nani se había sentido triste en su trabajo hasta que por fin renunció.
@@ -487,55 +488,9 @@
           .contenedor-traductor__eng
             p.fst-italic Now that we know how to identify when to use or not to use the past perfect, we can start practicing our ability to use the past tense by identifying between simple past or past perfect in an exercise, so you can prove you understood the topic. 
           .contenedor-traductor__esp(:class="{ mostrar: dial10}")
-            p 
+            p Ahora que sabemos identificar cuándo usar o no el pasado perfecto, podemos empezar a practicar nuestra habilidad para usar el tiempo pasado, identificando entre el pasado simple o el pasado perfecto en un ejercicio, para que pueda demostrar que ha entendido el tema.
           a.boton-traduccion(@click='dial10 = !dial10' style='background-color: #fc5f65') Ver traducción
       .col-lg-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema1/31.jpg', alt='')
-
-
-
-
-
-    
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     Dialogo.color-acento-contenido(:dialogo="dialogo")
       template(#nombre-actividad) Arrastrar y Soltar
@@ -580,7 +535,7 @@ export default {
           textoIng:
             'Hey! I hadn’t ***  you since we finished the swimming course.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/sonia.mp3'),
+          audio: require('@/assets/curso/audios/tema1/22.mp3'),
           palabra: 'seen (see)',
         },
         {
@@ -588,14 +543,14 @@ export default {
           textoIng:
             'That’s for sure! *** you met anyone from the group before?',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/pedro.mp3'),
+          audio: require('@/assets/curso/audios/tema1/23.mp3'),
           palabra: 'had (have) ',
         },
         {
           personaje: 'Karla',
           textoIng: 'No, I *** not. You are the first one.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/sonia.mp3'),
+          audio: require('@/assets/curso/audios/tema1/24.mp3'),
           palabra: 'had (have) ',
         },
         {
@@ -603,7 +558,7 @@ export default {
           textoIng:
             'That’s nice! I had never *** friends in a swimming course.',
           textoEsp: '',
-          audio: require('@/assets/curso/audios/tema1/pedro.mp3'),
+          audio: require('@/assets/curso/audios/tema1/25.mp3'),
           palabra: 'made (make)',
         },
       ],
