@@ -13,7 +13,7 @@
           .contenedor-traductor__eng
             p.fst-italic In English, adverbs are normally used to describe a verb, adjective or an adverb. But in this component, we are going to focus on adverbs of degree, which allow the speakers to express the intensity of something in a sentence. So, if we use an adverb that can describe the range, measure or scope of an action, that’s the one we are going to call adverb of degree. During this component, we are going to emphasize “too”, “enough”, “extremely”, “just” and “absolutely/completely”. Let’s see them:
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp}")
-            p En inglés, los adverbios se utilizan normalmente para describir un verbo, un adjetivo o un adverbio. Pero en este componente, vamos a centrarnos en los adverbios de grado, los cuales permiten a los hablantes expresar la intensidad de algo en una frase. Por lo tanto, si utilizamos un adverbio que puede describir el rango, la medida o el alcance de una acción, ese es el que vamos a llamar adverbio de grado. Durante este componente, vamos a hacer hincapié en #[em "too"], #[em " enough"], #[em " extremely"], #[em " just"] y #[em " absolutely/completely"]. Veámoslos: 
+            p En inglés, los adverbios se utilizan normalmente para describir un verbo, un adjetivo o un adverbio. Pero en este componente, vamos a centrarnos en los adverbios de grado, los cuales permiten a los hablantes expresar la intensidad de algo en una frase. Por lo tanto, si utilizamos un adverbio que puede describir el rango, la medida o el alcance de una acción, ese es el que vamos a llamar adverbio de grado. Durante este componente, vamos a hacer hincapié en #[em "too"], #[em " enough"], #[em " extremely"], #[em " just"] y #[em "absolutely/completely"]. Veámoslos: 
           a.boton-traduccion(@click='ocultarEsp = !ocultarEsp' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-6(data-aos="fade-left"): img(src='@/assets/curso/temas/tema2/1.svg', alt='')
     .margin-n.p-5.mb-5(style='background-color: #3c3fa7')
@@ -21,7 +21,7 @@
         .col-lg-4(data-aos="fade-right")
           p
             span.r--2.fw-bold #[em Adverbs of degree] / Adverbios de grado
-          p.text-white #[em Adverbs of degree allow the speakers to express the intensity of something in a sentence / Los adverbios de grado permiten a los hablantes expresar la intensidad de algo en una frase.]
+          p.text-white #[em Adverbs of degree allow the speakers to express the intensity of something in a sentence] / Los adverbios de grado permiten a los hablantes expresar la intensidad de algo en una frase.
           img(src='@/assets/curso/temas/tema2/2.png', alt='')
         .col-lg-8(data-aos="fade-left")
           .tarjeta.bg-white.p-4 
@@ -84,7 +84,7 @@
                       )
                     p.ms-3 Susan no había pateado la pelota lo #[b suficientemente fuerte] en sus partidos pasados. 
               div
-                p.text-center #[em #[b Extremely”]]  (Extremadamente)
+                p.text-center #[em #[b “Extremely”]]  (Extremadamente)
                 .contenedor-traductor(style='background-color: #fcf2ca').mb-5
                   .contenedor-traductor__eng
                     p.fst-italic This is an adverb used to heighten the relevance or importance of something in the sentence. “Extremely” is always located right before the element of the sentence that is being modified by it. It can be used in affirmative or negative sentences. Let’s see an abstract of the information we have and use it in some sentences.
@@ -140,7 +140,7 @@
                       )
                     p.ms-3 Bruno nunca había trabajado lo justo, él quería ser el mejor.
               div
-                p.text-center #[em #[b Absolutely/completely”]] (Absolutamente/completamente)
+                p.text-center #[em #[b “Absolutely/completely”]] (Absolutamente/completamente)
                 .contenedor-traductor(style='background-color: #fcf2ca').mb-5
                   .contenedor-traductor__eng
                     p.fst-italic These two adverbs appear together because they both refer to the same function. Absolutely and completely are used to emphasize that the adjective or adverb you are using it with is not partial, you fully mean it. They can be found in affirmative and negative sentences. Let’s see an abstract of the information we have and use it in some sentences.
@@ -171,9 +171,9 @@
       .col-lg-8(data-aos="fade-right")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic These two adverbs appear together because they both refer to the same function. Absolutely and completely are used to emphasize that the adjective or adverb you are using it with is not partial, you fully mean it. They can be found in affirmative and negative sentences. Let’s see an abstract of the information we have and use it in some sentences.
+            p.fst-italic These adverbs are quite important in spoken English because they allow you to show the level of intensity that you want to put in your words or expressions. So, let’s work on an exercise to verify your knowledge on the use of these adverbs
           .contenedor-traductor__esp(:class="{ mostrar: ocultarEsp6}")
-            p Estos dos adverbios aparecen juntos porque ambos se refieren a la misma función. #[em “Absolutely”] y #[em “completely”] se utilizan para enfatizar que el adjetivo o adverbio con el que se utilizan no es parcial, sino que se quiere decir totalmente. Se pueden encontrar en oraciones afirmativas y negativas. Veamos un resumen de la información que tenemos y utilicémoslos en algunas oraciones.
+            p Estos adverbios son bastante importantes en el inglés hablado, porque le permiten mostrar el nivel de intensidad que quiere poner en sus palabras o expresiones. Vamos a realizar un ejercicio para comprobar sus conocimientos sobre el uso de estos adverbios:
           a.boton-traduccion(@click='ocultarEsp6 = !ocultarEsp6' style='background-color: #fc5f65') Ver traducción
       .col-lg-4.col-6(data-aos="fade-left")
         img(src='@/assets/curso/temas/tema2/18.jpg', alt='')
@@ -304,7 +304,7 @@ export default {
             'You had *** a small bike before this one, do you still have it?',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema2/13.mp3'),
-          palabra: 'sold (sell)',
+          palabra: 'owned (own)',
         },
         {
           personaje: 'Ryan',
@@ -312,7 +312,7 @@ export default {
             'No, I don’t, I had *** it three months before I got this one.',
           textoEsp: '',
           audio: require('@/assets/curso/audios/tema2/14.mp3'),
-          palabra: 'owned (own)',
+          palabra: 'sold (sell)',
         },
       ],
     },

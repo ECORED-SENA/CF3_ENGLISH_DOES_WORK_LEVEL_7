@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 #[em Textual structure of anecdotes] (Estructura textual de anécdotas) 
+      h1 <em> Narrative connectors</em> (Conectores narrativos) 
     .row.justify-content-center.mb-5
       .col-lg-3.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/1.svg', alt='')
       .col-lg-9(data-aos="fade-left")
@@ -37,7 +37,7 @@
                   p.fst-italic #[b Tips to use it:]
                     br
                     br
-                    |Mostly appears at the beginning of children tales or stories. 
+                    |1. Mostly appears at the beginning of children tales or stories. 
                     span.fst-normal / Aparece sobre todo al principio de los cuentos o historias de niños.
                     br
                     |2. It can be replaced by the expression “A long time ago”. 
@@ -50,7 +50,7 @@
               .contenedor-traductor__eng
                   p.fst-italic “Meanwhile” is an element of the narration which allows you to talk about two things that were happening at the same time. However, it is not its only use, it can be also used to talk about a period of time between an action and a future one. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:  
                   .contenedor-traductor__esp(:class="{ mostrar: tabs2}")
-                    p “Meanwhile” es un elemento de la narración que permite hablar de dos cosas que ocurren al mismo tiempo. Sin embargo, no es su único uso, también puede utilizarse para hablar de un periodo de tiempo entre una acción y otra futura. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta: 
+                    p #[em “Meanwhile”] es un elemento de la narración que permite hablar de dos cosas que ocurren al mismo tiempo. Sin embargo, no es su único uso, también puede utilizarse para hablar de un periodo de tiempo entre una acción y otra futura. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta: 
                   a.boton-traduccion(@click='tabs2 = !tabs2' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -87,7 +87,7 @@
                   p.fst-italic #[b Tips to use it:]
                     br
                     br
-                    |Used to express surprise or something that was not expected. 
+                    |1. Used to express surprise or something that was not expected. 
                     span.fst-normal / Se utiliza para expresar sorpresa o algo que no se esperaba.
                     br
                     |2. If it is used at the beginning of the sentence, use a comma. 
@@ -114,7 +114,7 @@
                   p.fst-italic #[b Tips to use it:]
                     br
                     br
-                    |1.It indicates an activity that is going to happen in the future. 
+                    |1. It indicates an activity that is going to happen in the future. 
                     span.fst-normal / Indica una actividad que va a ocurrir en el futuro.
                     br
                     |2. When starting a sentence, use a comma before starting the next idea. 

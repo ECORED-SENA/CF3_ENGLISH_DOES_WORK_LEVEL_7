@@ -183,7 +183,7 @@ export default {
         'tiempo verbal que hace referencia a acciones que se estaban llevando a cabo en un momento del pasado.',
     },
     {
-      termino: '<em> Time expressionsM</em> / Expresiones de tiempo',
+      termino: '<em> Time expressions </em> / Expresiones de tiempo',
       significado:
         'son expresiones que dan información sobre el tiempo en que sucede algo y se emplean para hablar del momento en que se realiza una acción.',
     },
@@ -231,10 +231,6 @@ export default {
     {
       referencia: 'UsingEnglish.com. (2022). English Irregular Verbs List. ',
       link: 'https://www.usingenglish.com/reference/irregular-verbs',
-    },
-    {
-      referencia: '',
-      link: '',
     },
   ],
   creditos: {
@@ -312,7 +308,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',
       },
       {
-        nombre: '',
+        nombre: 'Lina Marcela Perez',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura - Regional Santander',

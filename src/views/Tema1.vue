@@ -146,16 +146,16 @@
           .tarjeta.bg-white(style='border: 2px solid #ffcacc').p-3.mb-3
             .row.justify-content-center
               .col-lg-10
-                p.mb-0.fst-italic #[b Description:] Irregular verbs don’t follow any rule; they all appear in a list: the irregular verb list:
+                p.mb-0.fst-italic #[b Description:] Irregular verbs don’t follow any rule; they all appear in a list; the irregular verb list:
               .col-lg-1
                 Audio.color-acento-botones(:audio="require('@/assets/curso/audios/tema1/7.mp3')").mb-3.m-auto.d-flex
           //TODO agregar documento
-          a.anexo.mb-4(:href="obtenerLink('downloads/prueba.pdf')" target="_blank").bg-white
+          a.anexo.mb-4(href="http://www.actionwins.ca/Documents/List%20of%20616%20English%20Irregular%20Verbs.pdf" target="_blank").bg-white
             .row.justify-content-around.align-items-center
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p Anexo. Download Let us now look at the list of more irregular verbs:
+                p Download. Let us now look at the list of more irregular verbs:
                   br
                   |List of 616 English Irregular Verbs
           img(src='@/assets/curso/temas/tema1/10.svg', alt='')
@@ -213,25 +213,21 @@
                 td Broke
                 td broken
     p.mb-5(data-aos='fade-right') 
-      span.r--1.fst-italic Now that we reviewed how to put verbs into the past participle, let’s see how to write or say affirmative sentences in the past perfect:  
-      span.r--g / Ahora que hemos repasado cómo poner los verbos en el participio pasado, veamos cómo escribir o decir frases afirmativas en el pasado perfecto:
+      span.r--1.fst-italic Now that we reviewed how to put verbs into the past participle, let’s see how to write or say #[b affirmative sentences] in the past perfect:  
+      span.r--g / Ahora que hemos repasado cómo poner los verbos en el participio pasado, veamos cómo escribir o decir #[b frases afirmativas] en el pasado perfecto:
     .row.justify-content-center.mb-5
       .col-lg-9(data-aos="fade-right")
         .tarjeta.color-primario--borde.border-2.p-5
-          TarjetaAudio.color-acento-botones.mb-3.bg-white(
-            texto=""
-            :audio="require('@/assets/curso/audios/tema1/8.mp3')"
-            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-            )
+          .d-flex.justify-content-center.mb-3
+            Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/8.mp3')")
+          h4.text-center Structure affirmative sentences
           img(src='@/assets/curso/temas/tema1/11.svg', alt='').mb-4
           .row.justify-content-center
             .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/12.svg', alt='')
             .col-lg-8(data-aos="fade-left")
               p 
-                span.r--1.fst-italic.fw-bold Structure affirmative sentences
-
-                br
                 span.r--1.fst-italic.fw-bold Examples:
+                br
                 br
                 span.r--1.fst-italic.fw-bold Maria had bought a new cellphone before her birthday.
                 br
@@ -247,28 +243,55 @@
       .col-lg-3(data-aos="fade-left"): img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/13.svg', alt='')
     .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
-            p.fst-italic When using the past perfect, it is also important to know how to work with negative sentences. The negative sentences are quite similar to the affirmative ones, the only difference is that you have to put the auxiliary verb in the negative form. However, the other elements keep exactly the same; the verb is also in past participle form and the order of the structure is the same. Let’s see how the structure works:  
+            p.fst-italic When using the past perfect, it is also important to know how to work with negative sentences. The #[b negative sentences] are quite similar to the affirmative ones, the only difference is that you have to put the auxiliary verb in the negative form. However, the other elements keep exactly the same; the verb is also in past participle form and the order of the structure is the same. Let’s see how the structure works:  
           .contenedor-traductor__esp(:class="{ mostrar: dial1}")
-            p Al utilizar el pasado perfecto, también es importante saber cómo trabajar con oraciones negativas. Las oraciones negativas son bastante similares a las afirmativas, la única diferencia es que hay que poner el verbo auxiliar en la forma negativa. Sin embargo, los demás elementos se mantienen exactamente igual, el verbo también está en forma de participio pasado y el orden de la estructura es el mismo. Veamos cómo funciona la estructura: 
+            p Al utilizar el pasado perfecto, también es importante saber cómo trabajar con #[b oraciones negativas.] Las oraciones negativas son bastante similares a las afirmativas, la única diferencia es que hay que poner el verbo auxiliar en la forma negativa. Sin embargo, los demás elementos se mantienen exactamente igual, el verbo también está en forma de participio pasado y el orden de la estructura es el mismo. Veamos cómo funciona la estructura: 
           a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
     .row.justify-content-center.mb-5
       .col-lg-3(data-aos="fade-right"): img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/14.svg', alt='')
       .col-lg-9(data-aos="fade-left")
+        .tarjeta.color-secundario--borde.border-2.p-5(style='background-color: #fff7da')
+          .d-flex.justify-content-center.mb-3
+              Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/9-1.mp3')")
+          h4.text-center Structure negative sentences
+          img(src='@/assets/curso/temas/tema1/15-1.svg', alt='').mb-4
+          .row.justify-content-center
+            .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/16-1.svg', alt='')
+            .col-lg-8(data-aos="fade-left")
+              p 
+                span.r--1.fst-italic.fw-bold Examples:
+                br
+                br
+                span.r--1.fst-italic.fw-bold Maria hadn’t bought a new cellphone before her birthday.
+                br
+                span.r--g Maria no había comprado un celular nuevo antes de su cumpleaños.
+                br
+                span.r--1.fst-italic.fw-bold Bruno hadn’t finished his homework before the weekend.
+                br
+                span.r--g Bruno no había terminado su tarea antes del fin de semana.
+                br
+                span.r--1.fst-italic.fw-bold Luisa hadn’t called me many times, but I was asleep. 
+                br
+                span.r--g Luisa no me había llamado varias veces, pero yo estaba dormido.
+    .contenedor-traductor(style='background-color: #fcf2ca').mb-5
+          .contenedor-traductor__eng
+            p.fst-italic #[b Questions] in past perfect are made in a similar way in which other grammar tenses work. The sentences start with the auxiliary verb in case of a yes/no question, and in an open question they start with a WH word. Let’s see how questions work:
+          .contenedor-traductor__esp(:class="{ mostrar: dial1}")
+            p Las preguntas en pasado perfecto se hacen de forma similar a como funcionan otros tiempos gramaticales. Las frases comienzan con el verbo auxiliar en el caso de una pregunta de sí o no, y con una pregunta abierta, comienzan con una palabra WH. Veamos cómo funcionan las preguntas:
+          a.boton-traduccion(@click='dial1 = !dial1' style='background-color: #fc5f65') Ver traducción
+    .row.justify-content-center.mb-5
+      .col-lg-9(data-aos="fade-left")
         .tarjeta.color-acento-botones--borde.border-2.p-5(style='background-color: #fff0f1')
-          TarjetaAudio.color-acento-botones.mb-3.bg-white(
-            texto=""
-            :audio="require('@/assets/curso/audios/tema1/9.mp3')"
-            @audio-hover="mostrarIndicadorTarjetaAudio = false"
-            )
+          .d-flex.justify-content-center.mb-3
+            Audio.color-acento-botones.mx-3(:audio="require('@/assets/curso/audios/tema1/9.mp3')")
+          h4.text-center Structure questions sentences 
           img(src='@/assets/curso/temas/tema1/15.svg', alt='').mb-4
           .row.justify-content-center
             .col-lg-4.col-8(data-aos="fade-right"): img(src='@/assets/curso/temas/tema1/16.svg', alt='')
             .col-lg-8(data-aos="fade-left")
               p 
-                span.r--1.fst-italic Structure affirmative sentences
-                br
-                br
                 span.r--1.fst-italic.fw-bold Examples:
+                br
                 br
                 span.r--1.fst-italic.fw-bold Had Maria bought a new cellphone before her birthday?
                 br
@@ -281,6 +304,7 @@
                 span.r--1.fst-italic.fw-bold Had Luisa called me many times, but I was asleep? 
                 br
                 span.r--g ¿Luisa me había llamado varias veces, pero yo estaba dormido?
+      .col-lg-3(data-aos="fade-right"): img.d-none.d-lg-block(src='@/assets/curso/temas/tema1/14-1.svg', alt='')
     .row.justify-content-center.mb-5
       .col-lg-4(data-aos="fade-right")
         .contenedor-traductor(style='background-color: #fcf2ca').mb-5
@@ -292,7 +316,7 @@
       .col-lg-7(data-aos="fade-left")
         .tarjeta(style='background-color: #c4d1ff').p-5.position-relative.me-5
           h5.fst-italic Laura to MARIANNE
-          p.mb-3(data-aos='fade-right').me-5.pe-5 #[em Our neighborhood was small, for it consisted only of your mother. She may probably have already told you that being left by her Parents in indigent Circumstances she had retired into Wales on economic motives. There it was when our friendship first commenced. Isobel was then one and twenty. Though pleasing both in her Person and Manners (between ourselves) she never possessed the hundredth part of my Beauty or Accomplishments. Isabel had seen the World. She had passed 2 Years at one of the first Boarding-schools in London; had spent a fortnight in Bath and had supped one night in Southampton…]
+          p.mb-3(data-aos='fade-right').me-5.pe-5 #[em Our neighborhood was small, for it consisted only of your mother. She may probably have already told you that being left by her Parents in indigent Circumstances she had retired into Wales on economical motives. There it was when our friendship first commenced. Isobel was then one and twenty. Though pleasing both in her Person and Manners (between ourselves) she never possessed the hundredth part of my Beauty or Accomplishments. Isabel had seen the World. She had passed 2 Years at one of the first Boarding-schools in London; had spent a fortnight in Bath and had supped one night in Southampton…]
           .tarjeta__imagen: img(src='@/assets/curso/temas/tema1/17.svg', alt='' style='width: 280px')
           .tarjeta__audio 
             TarjetaAudio.color-acento-botones.mb-3.bg-white(
@@ -418,7 +442,8 @@
                       span.fw-normal.fst-normal (Eventos en orden cronológico) 
                   p.fst-italic.text-center I called my friend, then I texted other friends, and finally I met with them.
             .position-absolute.d-none.d-lg-block(style='bottom: 0; right: 0'): img(src='@/assets/curso/temas/tema1/24.svg', alt='')
-            
+    h4.text-center Past perfect
+    p.text-center.fst-italic Events happened earlier in the past. 
     .margin-n.p-5(style='background-color: #e1e8ff').mb-5
       .row.justify-content-center.mb-5
         .col-lg-6(data-aos="fade-right").mb-lg-0.mb-3
