@@ -74,7 +74,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “Suddenly” is a narrative connector that denotes surprise or something unexpected. It is commonly used with a verb and as a starting point of a sentence. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:
               .contenedor-traductor__esp(:class="{ mostrar: tabs3}")
-                p “Suddenly” es un conector narrativo que denota sorpresa o algo inesperado. Se utiliza habitualmente con un verbo y como punto de partida de una frase.  Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:  
+                p #[em “Suddenly”] es un conector narrativo que denota sorpresa o algo inesperado. Se utiliza habitualmente con un verbo y como punto de partida de una frase.  Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:  
               a.boton-traduccion(@click='tabs3 = !tabs3' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -96,12 +96,39 @@
                     |3. Don’t put a comma if it is used before a verb. 
                     span.fst-normal / No ponga una coma si se usa antes de un verbo.
                   
+          .tarjeta.p-4(titulo="Later" style='background-color: #c4d1ff')
+            .contenedor-traductor(style='background-color: #fcf2ca').mb-5
+              .contenedor-traductor__eng
+                p.fst-italic “Later” is a narrative connector that refers to a moment in the future. It can be used with any grammar tense because there is not only one context. “Later” can start a sentence using a comma or right before a verb; in this case, the verb has to be used in ING form. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
+              .contenedor-traductor__esp(:class="{ mostrar: tabs3}")
+                p #[em Later] es un conector narrativo que se refiere a un momento en el futuro. Se puede utilizar con cualquier tiempo gramatical porque no hay un solo contexto. Later puede empezar una frase usando una coma o justo antes de un verbo; en este caso, el verbo tiene que usarse en forma ING. Para que entiendas mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos que sea fácil de tener en cuenta:
+              a.boton-traduccion(@click='tabs3 = !tabs3' style='background-color: #fc5f65') Ver traducción
+                  
+            .row.justify-content-center.mb-5
+              .col-lg-10
+                img(src='@/assets/curso/temas/tema3/6-1.svg', alt='')
+            .row.justify-content-center.mb-5
+              .col-lg-3.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/7-1.svg', alt='')
+              .col-lg-9(data-aos="fade-left")
+                .contenedor-traductor(style='background-color: #fcf2ca').mb-5
+                  p.fst-italic #[b Tips to use it:]
+                    br
+                    br
+                    |1. It indicates an activity that is going to happen in the future. 
+                    span.fst-normal / Indica una actividad que va a ocurrir en el futuro.
+                    br
+                    |2. When starting a sentence, use a comma before starting the next idea. 
+                    span.fst-normal / Al comenzar una frase, utilice una coma antes de empezar la siguiente idea.
+                    br
+                    |3. If it is before a verb, use the verb in ING form.  
+                    span.fst-normal / Si está antes de un verbo, use el verbo en forma ING.
+                  
           .tarjeta.p-4(titulo="Afterwards" style='background-color: #c4d1ff')
             .contenedor-traductor(style='background-color: #fcf2ca').mb-5
               .contenedor-traductor__eng
                 p.fst-italic “Afterwards” is a narrative connector that refers to a moment in the future. It can be used with any grammar tense because there is not only one context. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
               .contenedor-traductor__esp(:class="{ mostrar: tabs4}")
-                p “Afterwards” es un conector narrativo que se refiere a un momento en el futuro. Se puede utilizar con cualquier tiempo gramatical porque no hay un solo contexto. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta: 
+                p #[em “Afterwards”] es un conector narrativo que se refiere a un momento en el futuro. Se puede utilizar con cualquier tiempo gramatical porque no hay un solo contexto. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta: 
               a.boton-traduccion(@click='tabs4 = !tabs4' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -119,12 +146,35 @@
                     br
                     |2. When starting a sentence, use a comma before starting the next idea. 
                     span.fst-normal / Al comenzar una frase, utilice una coma antes de empezar la siguiente idea.
+          .tarjeta.p-4(titulo="When" style='background-color: #c4d1ff')
+            .contenedor-traductor(style='background-color: #fcf2ca').mb-5
+              .contenedor-traductor__eng
+                p.fst-italic “When” is a connector that can be used in different situations depending on the way you want to express the ideas. The interesting thing about “when” is that you can use it to connect two different grammar tenses; however, it is mostly used in the past tense. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
+              .contenedor-traductor__esp(:class="{ mostrar: tabs4}")
+                p #[em “When”] es un conector que se puede utilizar en diferentes situaciones dependiendo de la forma en que se quieran expresar las ideas. Lo interesante de “when” es que se puede utilizar para conectar dos tiempos gramaticales diferentes; sin embargo, se utiliza sobre todo en pasado. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
+              a.boton-traduccion(@click='tabs4 = !tabs4' style='background-color: #fc5f65') Ver traducción
+                  
+            .row.justify-content-center.mb-5
+              .col-lg-10
+                img(src='@/assets/curso/temas/tema3/8-1.svg', alt='')
+            .row.justify-content-center.mb-5
+              .col-lg-3.col-6(data-aos="fade-right"): img(src='@/assets/curso/temas/tema3/9-1.svg', alt='')
+              .col-lg-9(data-aos="fade-left")
+                .contenedor-traductor(style='background-color: #fcf2ca').mb-5
+                  p.fst-italic #[b Tips to use it:]
+                    br
+                    br
+                    |1. Used to connect a sentence to another in the same period of time.  
+                    span.fst-normal / Se utiliza para conectar una frase con otra en el mismo periodo de tiempo. 
+                    br
+                    |2. Don’t put a comma after “when”.  
+                    span.fst-normal  / No se pone coma después de “when”. 
           .tarjeta.p-4(titulo="Finally" style='background-color: #c4d1ff')
             .contenedor-traductor(style='background-color: #fcf2ca').mb-5
               .contenedor-traductor__eng
                 p.fst-italic “Finally” is a finishing connector. It is used to introduce the closing part of the narration that you are telling or writing. This expression allows the writers or speakers to tell their audience that this narration is going to finish and prepare them for the end of the narration. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind:    
               .contenedor-traductor__esp(:class="{ mostrar: tabs5}")
-                p “Finally” es un conector de finalización. Se utiliza para introducir la parte final de la narración que se está contando o escribiendo. Esta expresión permite a los escritores u oradores indicar a su público que la narración va a terminar y prepararlos para el final de la misma. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
+                p #[em “Finally”] es un conector de finalización. Se utiliza para introducir la parte final de la narración que se está contando o escribiendo. Esta expresión permite a los escritores u oradores indicar a su público que la narración va a terminar y prepararlos para el final de la misma. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
               a.boton-traduccion(@click='tabs5 = !tabs5' style='background-color: #fc5f65') Ver traducción 
                   
             .row.justify-content-center.mb-5
@@ -147,7 +197,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “At the end” is a finishing expression. It is used to introduce the closing part of the narration that you are telling or writing. This expression allows the writers or speakers to tell their audience that this narration is going to finish and prepare them for the end of the narration. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
               .contenedor-traductor__esp(:class="{ mostrar: tabs6}")
-                p “At the end” es una expresión de finalización. Se utiliza para introducir la parte final de la narración que se está contando o escribiendo. Esta expresión permite a los escritores u oradores indicar a su público que la narración va a terminar y prepararlos para el final de la misma. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
+                p #[em “At the end”] es una expresión de finalización. Se utiliza para introducir la parte final de la narración que se está contando o escribiendo. Esta expresión permite a los escritores u oradores indicar a su público que la narración va a terminar y prepararlos para el final de la misma. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
               a.boton-traduccion(@click='tabs6 = !tabs6' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
