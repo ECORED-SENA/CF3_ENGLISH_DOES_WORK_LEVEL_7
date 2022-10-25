@@ -101,7 +101,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “Later” is a narrative connector that refers to a moment in the future. It can be used with any grammar tense because there is not only one context. “Later” can start a sentence using a comma or right before a verb; in this case, the verb has to be used in ING form. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
               .contenedor-traductor__esp(:class="{ mostrar: tabs3}")
-                p #[em Later] es un conector narrativo que se refiere a un momento en el futuro. Se puede utilizar con cualquier tiempo gramatical porque no hay un solo contexto. Later puede empezar una frase usando una coma o justo antes de un verbo; en este caso, el verbo tiene que usarse en forma ING. Para que entiendas mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos que sea fácil de tener en cuenta:
+                p #[em “Later”] es un conector narrativo que se refiere a un momento en el futuro. Se puede utilizar con cualquier tiempo gramatical porque no hay un solo contexto. Later puede empezar una frase usando una coma o justo antes de un verbo; en este caso, el verbo tiene que usarse en forma ING. Para que entiendas mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos que sea fácil de tener en cuenta:
               a.boton-traduccion(@click='tabs3 = !tabs3' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
@@ -151,7 +151,7 @@
               .contenedor-traductor__eng
                 p.fst-italic “When” is a connector that can be used in different situations depending on the way you want to express the ideas. The interesting thing about “when” is that you can use it to connect two different grammar tenses; however, it is mostly used in the past tense. In order for you to understand this expression better, let’s see a chart in which some tips are shown so it is easy to keep in mind: 
               .contenedor-traductor__esp(:class="{ mostrar: tabs4}")
-                p #[em “When”] es un conector que se puede utilizar en diferentes situaciones dependiendo de la forma en que se quieran expresar las ideas. Lo interesante de “when” es que se puede utilizar para conectar dos tiempos gramaticales diferentes; sin embargo, se utiliza sobre todo en pasado. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
+                p #[em “When”] es un conector que se puede utilizar en diferentes situaciones dependiendo de la forma en que se quieran expresar las ideas. Lo interesante de #[em  “when”] es que se puede utilizar para conectar dos tiempos gramaticales diferentes; sin embargo, se utiliza sobre todo en pasado. Para que entienda mejor esta expresión, vamos a ver un cuadro en el que se muestran algunos consejos para que sea fácil de tener en cuenta:
               a.boton-traduccion(@click='tabs4 = !tabs4' style='background-color: #fc5f65') Ver traducción
                   
             .row.justify-content-center.mb-5
