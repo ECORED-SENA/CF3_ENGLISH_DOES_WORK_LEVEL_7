@@ -270,9 +270,9 @@
                 br
                 span.r--g Bruno no había terminado su tarea antes del fin de semana.
                 br
-                span.r--1.fst-italic.fw-bold Luisa hadn’t called me many times, but I was asleep. 
+                span.r--1.fst-italic.fw-bold Luisa hadn’t called me many times, while I was asleep 
                 br
-                span.r--g Luisa no me había llamado varias veces, pero yo estaba dormido.
+                span.r--g Luisa no me había llamado muchas veces, mientras dormía
     .contenedor-traductor(style='background-color: #fcf2ca').mb-5
           .contenedor-traductor__eng
             p.fst-italic #[b Questions] in past perfect are made in a similar way in which other grammar tenses work. The sentences start with the auxiliary verb in case of a yes/no question, and in an open question they start with a WH word. Let’s see how questions work:
@@ -316,7 +316,7 @@
       .col-lg-7(data-aos="fade-left")
         .tarjeta(style='background-color: #c4d1ff').p-5.position-relative.me-5
           h5.fst-italic Laura to MARIANNE
-          p.mb-3(data-aos='fade-right').me-5.pe-5 #[em Our neighborhood was small, for it consisted only of your mother. She may probably have already told you that being left by her Parents in indigent Circumstances she had retired into Wales on economical motives. There it was when our friendship first commenced. Isobel was then one and twenty. Though pleasing both in her Person and Manners (between ourselves) she never possessed the hundredth part of my Beauty or Accomplishments. Isabel had seen the World. She had passed 2 Years at one of the first Boarding-schools in London; had spent a fortnight in Bath and had supped one night in Southampton…]
+          p.mb-3(data-aos='fade-right').me-5.pe-5 #[em Our neighborhood was small, for it consisted only of your mother. She may probably have already told you that being left by her Parents in indigent Circumstances she had retired into Wales on economical motives. There it was when our friendship first commenced. Isabel was then one and twenty. Though pleasing both in her Person and Manners (between ourselves) she never possessed the hundredth part of my Beauty or Accomplishments. Isabel had seen the World. She had passed 2 Years at one of the first Boarding-schools in London; had spent a fortnight in Bath and had supped one night in Southampton…]
           .tarjeta__imagen: img(src='@/assets/curso/temas/tema1/17.svg', alt='' style='width: 280px')
           .tarjeta__audio 
             TarjetaAudio.color-acento-botones.mb-3.bg-white(

@@ -187,7 +187,7 @@
                   p.fst-italic Tips to use it:
                     br
                     br
-                    |1. Used to introduce the final part of a narration. 
+                    | 1. Used to introduce the final part of a narration. 
                     span.fst-normal / Se utiliza para introducir la parte final de una narración.
                     br
                     |2. Put a comma after the expression “Finally”. 
@@ -210,7 +210,7 @@
                   p.fst-italic #[b Tips to use it:]
                     br
                     br
-                    |Used to introduce the final part of a narration. 
+                    |1. Used to introduce the final part of a narration. 
                     span.fst-normal / Se utiliza para introducir la parte final de una narración.
                     br
                     |2. Put a comma after the expression “at the end”.  

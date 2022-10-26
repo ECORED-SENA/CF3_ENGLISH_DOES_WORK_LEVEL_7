@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
-      h1 #[em Present Perfect] (Presente perfecto)
+      h1 <em> Adverbs of degree</em> (Adverbios de grado)
     .row.justify-content-center.mb-5
       .col-lg-8(data-aos="fade-right")
         //TODO agregar traduccion 
@@ -110,7 +110,7 @@
                       :audio="require('@/assets/curso/audios/tema2/6.mp3')"
                       @audio-hover="mostrarIndicadorTarjetaAudio = false"
                       )
-                    p.ms-3 Jack siempre había conducido #[b extremadamente rápido] en la carretera.s
+                    p.ms-3 Jack siempre había conducido #[b extremadamente rápido] en la carretera. 
               div
                 p.text-center #[em #[b “Just”]] (Solamente)
                 .contenedor-traductor(style='background-color: #fcf2ca').mb-5
